@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ .header{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logoimg{
+    height: 160px;
+    width: 160px;
+ }
+ .links{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    transition: all 1s;
+
+ }
+ .links:hover{
+    color: red;
+    font-size: 35px;
+ }
+ #home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+ .intro{
+    padding: 100px;
+    
+ }
+ h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+ }
+ p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 30px;
+ }
+ .introlinks{
+
+   background-color: black; 
+   color: white;
+   height: 5px;
+   width: 2px;
+   text-decoration: none;
+   font-size: 30px;
+   border-radius: 5px;
+   transition: all 1s;
+ }
+ .imgpart{
+   position: relative;
+ }
+
+#img1{
+   height: 500px;
+   position: absolute;
+   left: 80px;
+}
+#img2{
+   width: 70%;
+   height: 100%;
+}
+ .introlinks:hover{
+   color: brown;
+   font-size: 40px;
+ }
+
+ #about{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding: 10px;
+   column-gap: 10px;
+ }
+ .abtimg>img{
+   width: 100%;
+ }
+ .abtcontent>h4{
+   color: brown;
+   margin-bottom: 30px;
+ }
+ .abtcontent>p{
+   text-align: justify;
+ }
+ html{
+   scroll-behavior: smooth;
+ }
+ ::-webkit-scrollbar{
+   visibility: hidden;
+
+ }
